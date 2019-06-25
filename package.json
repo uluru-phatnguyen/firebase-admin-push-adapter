@@ -1,0 +1,33 @@
+{
+  "name": "firebase-admin-push-adapter",
+  "version": "1.0.0",
+  "description": "Parse Sever Push Adapter built based on firebase-admin module",
+  "main": "lib/index.js",
+  "files": [
+    "lib/"
+  ],
+  "keywords": [
+    "parse-server",
+    "push",
+    "adapter",
+    "fcm",
+    "firebase-admin",
+    "firebase-admin-push-adapter"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uluru-phatnguyen/firebase-admin-push-adapter.git"
+  },
+  "author": "Phat Nguyen <phatnguyenbk@gmail.com> (https://github.com/uluru-phatnguyen)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uluru-phatnguyen/firebase-admin-push-adapter/issues"
+  },
+  "homepage": "https://github.com/uluru-phatnguyen/firebase-admin-push-adapter#readme",
+  "scripts": {
+    "test": "TESTING=1 nyc ./node_modules/.bin/jasmine"
+  },
+  "engines": {
+    "node": ">= 8.9.1"
+  }
+}
